@@ -22,6 +22,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-batch'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.2.3'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+//	runtimeOnly 'com.oracle.database.jdbc:ojdbc11'
+//	implementation group: 'org.hibernate.orm', name: 'hibernate-community-dialects', version: '6.4.4.Final'
 	implementation group: 'com.mysql', name: 'mysql-connector-j'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.batch:spring-batch-test'
